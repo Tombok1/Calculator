@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Kalkulator zużycia i przychodu węgla w grze Frostpunk</title>
+        <script src="Skrypty.js"></script>
+    </head>
+    <body>
+        <form>
+            <h2>Poziom mocy generatora:</h2>
+            <input type="text" id="powerNumber">
+        </form>
+        <br></br>
+        <form>
+            <h2>Poziom zasięgu generatora:</h2>
+            <input type="text" id="rangeNumber">
+        </form>
+        <br></br>
+        <form>
+            <h2>Liczba węzłów grzewczych:</h2>
+            <input type="text" id="netNumber">
+        </form>
+        <br></br>
+        <p id="wynik"></p>
+        <button type="button" onclick="calculate()">=</button>
+    </body>
+</html>
